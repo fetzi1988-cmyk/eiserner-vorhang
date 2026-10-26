@@ -24,7 +24,22 @@ Du brauchst das nur einmal zu machen.
 2. Oben *File* → *New Scene* → *Basic (Built-in)* → *Create*, dann mit *Strg+S* als `Testgelaende` im Ordner `Scenes` speichern.
 3. Im *Hierarchy*-Fenster Rechtsklick → *Create Empty*, das neue Objekt `Spiel` nennen.
 4. Rechts im *Inspector* auf *Add Component* klicken, `GameBootstrap` suchen und hinzufügen.
-5. Oben auf ▶ (*Play*) drücken. Im *Console*-Fenster erscheint jede Sekunde eine Zeile wie `[Simulation] Takt 15 (1 s)`.
+5. Oben auf ▶ (*Play*) drücken. Es erscheint ein grünes Testgelände mit 12 blauen (deinen) und 6 roten Platzhalter-Panzern.
+
+### Steuerung
+
+| Taste | Wirkung |
+|---|---|
+| W A S D, Pfeiltasten oder Maus an den Bildrand | Kamera verschieben |
+| Mausrad | Zoomen |
+| Q / E oder mittlere Maustaste gedrückt halten | Kamera drehen |
+| Linksklick | Einheit auswählen |
+| Linke Maustaste gedrückt ziehen | Auswahlrahmen |
+| Shift + Klick | Zur Auswahl hinzufügen |
+| Rechtsklick auf den Boden | Ausgewählte Einheiten fahren dorthin |
+| X | Anhalten |
+| Strg + 1 bis 9 | Auswahl als Gruppe speichern |
+| 1 bis 9 | Gespeicherte Gruppe auswählen |
 
 **Tests ausführen:** *Window* → *General* → *Test Runner* → Reiter *EditMode* → *Run All*. Alle Häkchen sollten grün sein.
 
