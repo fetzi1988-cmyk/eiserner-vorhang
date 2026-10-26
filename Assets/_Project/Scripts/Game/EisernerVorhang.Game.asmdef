@@ -1,0 +1,16 @@
+{
+  "name": "EisernerVorhang.Game",
+  "rootNamespace": "EisernerVorhang.Game",
+  "references": [
+    "EisernerVorhang.Core"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
